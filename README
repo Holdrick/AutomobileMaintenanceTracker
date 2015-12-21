@@ -1,0 +1,24 @@
+Automobile Maintenance Tracker
+-Basic library to store and track automobile maintenance records
+
+Information:
+-I used junit 4.12 and hamcrest core 1.3 for unit testing
+-This library was developed and tested on Linux
+
+AMTracker.java:
+-The main class for the library
+-Stores the maintenance records in a treemap data structure
+-Provides the methods for adding, listing, updating and removing records
+
+UnitTests.java:
+-Class containing the unit tests
+-Created to test the library, and show off the features of the library
+
+Maintenance.java:
+-Class for representing maintenance records
+
+Vehicle.java:
+-Superclass for the three vehicle subclasses
+ -GasVehicle.java: Vehicle subclass for gas vehicles
+ -DieselVehicle.java: Vehicle subclass for diesel vehicles
+ -ElectricVehicle.java: Vehicle subclass for electric vehicles
