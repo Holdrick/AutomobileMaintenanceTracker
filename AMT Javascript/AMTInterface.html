@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<h1>Automobile Maintenance Tracker</h1>
+	<script src="AutoTracker.js"></script>
+
+	<form>
+		Maintenance description:<br>
+		<input id="maintType" type="text"><br>
+		VIN:<br>
+		<input id="VIN" type="text">
+	</form>
+	<button onclick="addRecord(document.getElementById('maintType').value, document.getElementById('VIN').value)">Add Record</button><p id="typeError"></p><p id="VINError"></p>
+
+	<form>
+		Maintenance ID to remove:<br>
+		<input id="removeID" type="text">
+	</form>
+	<button onclick="removeRecord(document.getElementById('removeID').value)">Remove Record</button><p id="removeError"></p>
+
+	<form>
+		ID of Maintenance record to update:<br>
+		<input id="updateID" type="text"><br>
+		New Maintenance Description:<br>
+		<input id="newMaint" type="text">
+	</form>
+	<button onclick="updateRecord(document.getElementById('updateID').value, document.getElementById('newMaint').value)">Update Record</button><p id="updateError"></p>
+
+	<p id="recordsTable"></p>
+</html>

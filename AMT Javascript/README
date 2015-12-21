@@ -1,0 +1,13 @@
+Automobile Maintenance Tracker - JavaScript
+
+Information:
+-HTML is very basic and is used to show off the Javascript
+-Available vehicle VINs are 1, 2, and 3
+-Available maintenance services include oil change, tire rotation, brake service, and wheel alignment
+ -Electric vehicles (VIN 1) don't need the same maintenance as oil and diesel vehicles (e.g. oil change)
+
+AutoTracker.js
+-File containing the Javascript code for the program
+
+AMTInterface.html
+-User Interface html file that utilizes the AutoTracker.js scripts
